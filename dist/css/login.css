@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#195c48;}
+footer{ position:fixed; bottom:0px; width:100%;}
+.formpage_block{ width:560px; height:560px; position:relative; margin:0 auto;}
+.formpage_block_logo{position:absolute; z-index:20; top:28px; text-align:center; width:100%;}
+.formpage_block_bg{width:560px; height:460px; background:url(../../images/form_bg.png) no-repeat; position:absolute; z-index:1; top:76px;}
+.formcontainer_block{ width:300px; margin:0 auto; padding-top:132px;}
+.formcontainer_block_row{ margin:0px 0px 4px 0px;}
+.formcontainer_block_username{width:300px; height:44px; background:url(../../images/userinput.png) no-repeat; display:block; padding:0px 0px 0px 60px;}
+.formcontainer_block_username input{width:220px;height:44px; line-height:44px; border:0; outline:0; background:transparent;}
+.txt_center{text-align:center;}
+.formcontainer_txt{ color:#3e3e3e; font-size:14px; text-transform:uppercase; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.formcontainer_link{ color:#0f6d53; font-size:14px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.formcontainer_link a{ color:#0f6d53; font-size:14px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-decoration:none;}
+.formcontainer_link a:hover{ color:#0f6d53; font-size:14px;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-decoration:underline;}
+.formcontainer_block_password{width:300px; height:44px; background: url(../../images/password_input.png) no-repeat; display:block; padding:0px 0px 0px 60px;}
+.formcontainer_block_password input{width:220px;height:44px; line-height:44px; border:0; outline:0; background:transparent;}
+
+@media (min-width: 320px) and (max-width: 580px) {
+.formpage_block{ width:100%; height:560px; position:relative; margin:0 auto;}	
+.formpage_block_bg{width:100%; height:460px; background:url(../../images/form_bg.png) no-repeat; position:absolute; z-index:1; top:76px;}
+  
+}
+
